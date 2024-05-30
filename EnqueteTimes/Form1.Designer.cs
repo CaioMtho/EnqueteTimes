@@ -41,6 +41,7 @@
             resPal = new Label();
             button1 = new Button();
             button2 = new Button();
+            infoBtn = new Button();
             ((System.ComponentModel.ISupportInitialize)corimg).BeginInit();
             ((System.ComponentModel.ISupportInitialize)palimg).BeginInit();
             ((System.ComponentModel.ISupportInitialize)sanimg).BeginInit();
@@ -166,11 +167,22 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
+            // infoBtn
+            // 
+            infoBtn.Location = new Point(12, 21);
+            infoBtn.Name = "infoBtn";
+            infoBtn.Size = new Size(30, 30);
+            infoBtn.TabIndex = 12;
+            infoBtn.Text = "i";
+            infoBtn.UseVisualStyleBackColor = true;
+            infoBtn.Click += infoBtn_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(infoBtn);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(resPal);
@@ -207,5 +219,6 @@
         private Label resPal;
         private Button button1;
         private Button button2;
+        private Button infoBtn;
     }
 }

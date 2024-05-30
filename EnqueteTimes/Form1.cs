@@ -59,5 +59,10 @@ namespace EnqueteTimes
             resSao.Text = "0";
 
         }
+
+        private void infoBtn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Cada clique no escudo contará um voto para o respectivo clube, aperte \"Restaurar\" para reiniciar a votação e \"Encerrar\" para mostrar o vencedor!");
+        }
     }
 }
