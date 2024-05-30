@@ -43,7 +43,7 @@ namespace EnqueteTimes
             switch (clas.Ganhador())
             {
                 case 0: MessageBox.Show("O Corinthians foi o vencedor!"); break;
-                case 1: MessageBox.Show("O São Paulo foi o vencedor!"); break;
+                case 1: MessageBox.Show("O SÃ£o Paulo foi o vencedor!"); break;
                 case 2: MessageBox.Show("O Palmeiras foi o vencedor!"); break;
                 case 3: MessageBox.Show("O Santos foi o vencedor!"); break;
                 case 4: MessageBox.Show("Empate!"); break;
